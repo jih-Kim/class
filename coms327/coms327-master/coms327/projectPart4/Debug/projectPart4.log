@@ -1,0 +1,38 @@
+﻿  move.c
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(29,39): warning C4013: 'WasteToFoundationOrTableau'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(39,24): warning C4013: 'moveTableau'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(50,24): warning C4013: 'StockToWaste'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(102,23): warning C4013: 'checkCard'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(129,32): warning C4013: 'saveFoundation'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(134,29): warning C4013: 'saveTableau'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(167,29): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(176,24): warning C4013: 'malloc'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(187,31): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(191,43): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(198,30): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(258,24): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int *[10]'과(와) 다릅니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(258,24): warning C4024: 'getDataSize': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(176,1): warning C4047: '초기화 중': 'char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(261,1): warning C4047: '초기화 중': 'int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(336,29): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(360,32): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(366,32): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(377,56): warning C4047: '<': 'unsigned int'의 간접 참조 수준이 'int (__cdecl *)()'과(와) 다릅니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(430,32): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(436,32): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(358,1): warning C4047: '초기화 중': 'char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(428,1): warning C4047: '초기화 중': 'char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(456,22): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int *[10]'과(와) 다릅니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(456,22): warning C4024: 'getDataSize': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(462,30): warning C4047: '<=': 'int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(463,26): warning C4047: '=': 'int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(479,30): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(486,64): warning C4047: '<': 'unsigned int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(498,35): warning C4047: '==': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(517,29): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(459,1): warning C4047: '초기화 중': 'int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(484,1): warning C4047: '초기화 중': 'int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(504,1): warning C4047: '초기화 중': 'unsigned int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(569,8): warning C4101: 'temp' :참조되지 않은 지역 변수입니다.
+C:\Users\wlaep\source\repos\projectPart4\projectPart4\move.c(645,37): warning C4047: '=': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+  projectPart4.vcxproj -> C:\Users\wlaep\source\repos\projectPart4\Debug\projectPart4.exe

@@ -1,0 +1,64 @@
+stages: 
+    - build  
+    - test  
+    - autodeploy
+    - android-build
+    - unitTests
+
+build :
+    stage: build
+    tags:
+        - shell
+    script:
+        - cd backend/demoMaven
+        - mvn package -B
+        
+test:
+    stage: test
+    tags:
+        - shell
+    script:
+        - cd backend/demoMaven
+        - mvn test
+
+autodeploy:
+    stage: autodeploy
+    tags:
+        - shell
+
+    only: # Will now only run when pushed to master, check Gitlab's CI/CD documentation for more configurations!
+        - master
+
+    script:
+        - cd backend/demoMaven
+        - mvn package
+        - sudo mv target/*.jar /target/web-demo.jar
+        - sudo systemctl stop system-web-demo
+        - sudo systemctl start system-web-demo
+
+android-build:
+    image: javiersantos/android-ci:latest
+    stage: android-build
+    before_script:
+        - export GRADLE_USER_HOME=`pwd`/.gradle
+        - chmod +x ./frontend/colortetris/gradlew
+    tags:
+        - android_tag1
+    script:
+        - cd frontend/colortetris
+        - ./gradlew assemble
+    
+# To run Android unit tests.   
+unitTests:
+    image: javiersantos/android-ci:latest
+    stage: unitTests
+    before_script:
+        - export GRADLE_USER_HOME=`pwd`/.gradle
+        - chmod +x ./frontend/colortetris/gradlew
+    tags:
+        - android_tag1
+    script:
+        - cd frontend/colortetris
+        - ./gradlew test
+
+

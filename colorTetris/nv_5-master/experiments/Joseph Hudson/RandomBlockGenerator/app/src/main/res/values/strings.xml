@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RandomBlockGenerator</string>
+    <string name="new_block">New Block</string>
+    <string name="todo">TODO</string>
+    <string name="rotatecounterclockwise">rotateCounterClockwise</string>
+    <string name="rotateclockwise">rotateClockwise</string>
+    <string name="exboard">exBoard</string>
+</resources>

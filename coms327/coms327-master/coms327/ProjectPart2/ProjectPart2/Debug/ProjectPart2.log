@@ -1,0 +1,33 @@
+﻿  move.c
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(30,39): warning C4013: 'WasteToFoundationOrTableau' undefined; assuming extern returning int
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(40,24): warning C4013: 'moveTableau' undefined; assuming extern returning int
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(51,24): warning C4013: 'StockToWaste' undefined; assuming extern returning int
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(103,23): warning C4013: 'checkCard' undefined; assuming extern returning int
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(130,32): warning C4013: 'saveFoundation' undefined; assuming extern returning int
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(135,29): warning C4013: 'saveTableau' undefined; assuming extern returning int
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(168,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(187,43): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(196,43): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(340,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(362,27): warning C4013: 'malloc' undefined; assuming extern returning int
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(364,32): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(370,32): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(381,56): warning C4047: '<': 'unsigned int' differs in levels of indirection from 'int (__cdecl *)()'
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(434,32): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(440,32): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(362,1): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(432,1): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(460,22): warning C4047: 'function': 'int *' differs in levels of indirection from 'int *[10]'
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(460,22): warning C4024: 'getDataSize': different types for formal and actual parameter 1
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(466,30): warning C4047: '<=': 'int' differs in levels of indirection from 'int *'
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(467,26): warning C4047: '=': 'int' differs in levels of indirection from 'int *'
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(483,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(490,64): warning C4047: '<': 'unsigned int' differs in levels of indirection from 'int *'
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(502,35): warning C4047: '==': 'int *' differs in levels of indirection from 'int'
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(521,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(463,1): warning C4047: 'initializing': 'int' differs in levels of indirection from 'int *'
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(488,1): warning C4047: 'initializing': 'int' differs in levels of indirection from 'int *'
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(508,1): warning C4047: 'initializing': 'unsigned int' differs in levels of indirection from 'int *'
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(573,8): warning C4101: 'temp': unreferenced local variable
+C:\Users\Dongwoo Kang\Desktop\coms327\projectPart4\move.c(649,37): warning C4047: '=': 'int *' differs in levels of indirection from 'int'
+  ProjectPart2.vcxproj -> C:\Users\Dongwoo Kang\source\repos\ProjectPart2\Debug\ProjectPart2.exe

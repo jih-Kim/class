@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.springframework.org/schema/data/jaxb">
+<head>
+    <meta charset="UTF-8">
+    <title>Diary list</title>
+</head>
+<body>
+<h2>Diary Section</h2>
+<div th:unless="${#lists.isEmpty(diarys)}">
+    <dl th:each="diary : ${diarys}">
+        <dt>
+            <span th:if="${diary.title}" th:text="${diary.title}">Title</span>
+        </dt>
+        <dd>
+            <span th:if="${diary.content}" th:text="${diary.content}">Content</span>
+        </dd>
+    </dl>
+</div>
+
+<hr />
+
+<h3>Write Diary</h3>
+<form method="POST" th:action="@{/}">
+    <label for=>Title:</label>
+    <input type="text" name="title" size="50" /><br />
+    <label for=>Content:</label>
+    <input type="text" name="content" size="500" /><br />
+    <input type="submit" value="add" />
+</form>
+
+</body>
+</html>

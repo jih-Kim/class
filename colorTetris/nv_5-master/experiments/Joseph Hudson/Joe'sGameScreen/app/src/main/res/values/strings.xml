@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GameScreen</string>
+    <string name="rotateclockwise">RotateClockWise</string>
+    <string name="shiftright">ShiftRight</string>
+    <string name="counterclockwiserotate">CounterClockwiseRotate</string>
+    <string name="shiftleft">ShiftLeft</string>
+    <string name="shiftup">ShiftUp</string>
+    <string name="shiftdown">ShiftDown</string>
+    <string name="gameboard">gameboard</string>
+    <string name="todo">TODO</string>
+    <string name="linepiece">linepiece</string>
+</resources>

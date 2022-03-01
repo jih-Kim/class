@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name='colortetris'
+//include '..:ExpandableButtonMenu:library'
+//compile project('..:ExpandableButtonMenu:library')

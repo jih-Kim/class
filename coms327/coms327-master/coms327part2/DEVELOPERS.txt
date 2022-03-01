@@ -1,0 +1,79 @@
+This repository was created by Dongwoo Kang and Jihoo Kim, for COM S 327 Spring 2020 Project part2
+
+I made a rules for Tableau to Tableau and Foundation. Also, I made the showing data that can be human readable part. 
+Jihoo part============================================================
+
+int moveTableau(char** dataTotal,char a, char b, int* dataSize)
+
+-find the card from the tableau and move it. Delete the card from the data when the card is moving. Can move multiple card
+
+int getInteger(char num)
+
+-get the integer using char num
+
+int findIndex(char a)
+
+-find the index using char a
+
+int checkCard(char** dataTotal, char a, int* dataSize)
+
+-check the card if it can move with the higher card in tableau
+
+int saveTableau(char** dataTotal,int* dataSize,char a,char num,char shape, int check)
+
+save the card to tableau when it moved to tableau
+
+int saveFoundation(char** dataTotal,int* dataSize,char num,char shape)
+
+save the card to foundation when it moved to foundation
+
+void showData(char** data,int* dataSize)
+
+show the data which is part for human readable
+
+Dongwoo Kang part==========================================================
+
+<readFile.c part>
+
+readFile.h 
+- I make a header file of the previous project file.
+
+char getTurns() 
+- Return the turn value of the game like 1 or 3.
+
+char getLimits()
+- Return the number of limit of this game 
+
+int getStockSize()
+- return the size of stock which save stock data from infile.txt
+
+<move.c part>
+
+int StockToWaste(char c, char c2, char** data) 
+- this method get stock data from readFile.h and modify the stock data.
+when user move a card from stock to waste according to turn, it modify the stock data.
+when user reverse waste card, it can reverse too by getting 'r' variable. 
+
+int WasteToFoundationOrTableau(char c1, char c2, char** data) 
+- its c1 is 'w' and its c2 is a index of tableau. 
+When user want to move a card from waste to foundation, they use this method. 
+It prints out of error message if a moved card doesn't match on color or number.
+
+void printTableau(char** data, int* dataSize)
+- return the data of Tableau as human readiable formmationg.
+
+
+Together =============================
+
+main method
+
+-implements those above methods to show right output information.
+
+int callRead()
+
+-calling the part1 part
+
+void executeMove(char** dataTotal, int* dataSize)
+
+-execute the move function
+
