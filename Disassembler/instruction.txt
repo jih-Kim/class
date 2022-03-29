@@ -1,0 +1,4 @@
+It is java file so when you execute the build.sh(./build.sh) or run.sh file(./run.sh)
+execute this commend
+java deassembler
+java deassembler $1

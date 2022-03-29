@@ -1,0 +1,105 @@
+//For array I have set X1-X5 with the value 8, 6, 4, 2, 1 (backward sorted array)
+//I have set arr to X20 and size of array n to X19
+//After the sortting if you want to see result you can simply look at
+//register and see it sort like 1, 2, 4, 6, 8
+Body:
+  //stack manipulation
+  SUBI SP, SP, #72
+  STUR X9, [SP, #0]    //i
+  STUR X10, [SP, #8]   //j
+  STUR X11, [SP, #16]  //min_idx
+  STUR X12, [SP, #24]   //temp
+  STUR X13, [SP, #32]   //temp
+  STUR X14, [SP, #40]    //temp
+  STUR X15, [SP, #48]   //temp
+  STUR X19, [SP, #56]    //n (size of array)
+  STUR X20, [SP, #64]   //arr
+  //code part
+  ADDI X9, XZR, #0   //i = 0
+  //hard code array
+  ADDI X1, XZR, #8 //arr[0] = 8
+  STUR X1, [X20, #0]
+  ADDI X2, XZR, #6
+  STUR X2, [X20, #8]
+  ADDI X3, XZR, #4
+  STUR X3, [X20, #16]
+  ADDI X4, XZR, #2
+  STUR X4, [X20, #24]
+  ADDI X5, XZR, #1
+  STUR X5, [X20, #32]
+  ADDI X19, XZR, #4 //n=5
+  B Top_of_Iloop
+
+Top_of_Iloop:
+  ADD X11, X9, XZR   //min_idx = i;
+  ADDI X10, X9, #1  //j = i+1;
+  B Top_of_Jloop
+
+return:
+//swap process
+//X13 = arr[i] X14 = arr[min_idx]
+  LSL X12, X9, #3
+  ADD X12, X20, X12
+  LDUR X13, [X12, #0]
+  LSL X15, X11, #3
+  ADD X15, X20, X15
+  LDUR X14, [X15, #0]
+  STUR X14, [X12, #0]
+  STUR X13, [X15, #0]
+  B complete
+
+complete:
+  ADDI X9, X9, #1
+  SUB X12, X9, X19
+  CBZ X12, Finish
+  B Top_of_Iloop
+
+  
+Finish:
+  DUMP
+  LDUR X5, [X20, #32]
+  LDUR X4, [X20, #24]
+  LDUR X3, [X20, #16]
+  LDUR X2, [X20, #8]
+  LDUR X1, [X20, #0]
+  //reverse stack manipulation
+  LDUR X20, [SP, #64]
+  LDUR X19, [SP, #56]
+  LDUR X15, [SP, #48]
+  LDUR X14, [SP, #40]
+  LDUR X13, [SP, #32]
+  LDUR X12, [SP, #24]
+  LDUR X11, [SP, #16]
+  LDUR X10, [SP, #8]
+  LDUR X9, [SP, #0]
+  ADDI SP, SP, #72
+  HALT
+  BR LR //define function end
+
+Top_of_Jloop:
+  LSL X12, X10, #3
+  ADD X12, X20, X12
+  LDUR X13, [X12, #0] //arr[j]
+  LSL X12, X11, #3
+  ADD X12, X20, X12
+  LDUR X14, [X12, #0] //arr[min_idx]
+  B final
+  
+final:
+  //X13= arr[j], X14 = arr[min_idx]
+  SUBS XZR, X13, X14 
+  B.LT Truth
+  B check
+
+check:
+  SUB X12, X10, X19
+  CBZ X12, end
+  ADDI X10, X10, #1 //j=j+1
+  B Top_of_Jloop
+
+Truth:
+  ADD X11, X10, XZR //min_idx = j
+  B check
+
+end:
+  B return
