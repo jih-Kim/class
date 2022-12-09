@@ -1,0 +1,16 @@
+[
+    {
+        "number": "97-3-1",
+        "startTime": "2022-02-03 17:56:06",
+        "stepID": "1",
+        "stepName": "Chg3",
+        "stepTime": "01:22:02",
+        "voltage": "4.1040",
+        "voltRange": "5",
+        "current": "-0.12518",
+        "cutOffCurr": "5.5",
+        "capacity": "0.00208",
+        "cycle": "7",
+        "cycleCapacity": "81.35"
+    }
+]

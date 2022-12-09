@@ -1,0 +1,42 @@
+[
+    {
+        "property": "stepID",
+        "header": "Step ID"
+    },
+    {
+        "property": "stepName",
+        "header": "Step Name"
+    },
+    {
+        "property": "stepTime",
+        "header": "Step Time"
+    },
+    {
+        "property": "voltage",
+        "header": "Voltage (V)"
+    },
+    {
+        "property": "voltRange",
+        "header": "Range of Volt (V)"
+    },
+    {
+        "property": "current",
+        "header": "Current (A)"
+    },
+    {
+        "property": "cutOffCurr",
+        "header": "Cut Off Current"
+    },
+    {
+        "property": "capacity",
+        "header": "Capacity (A)"
+    },
+    {
+        "property": "cycle",
+        "header": "Cycle"
+    },
+    {
+        "property": "cycleCapacity",
+        "header": "Cycle Capacity"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "property": "name",
+        "header": "Channel Name"
+    },
+    {
+        "property": "cellName",
+        "header": "Cell Name"
+    },
+    {
+        "property": "status",
+        "header": "Status"
+    },
+    {
+        "property": "cycle",
+        "header": "Step"
+    },
+    {
+        "property": "current",
+        "header": "Current(A)"
+    },
+    {
+        "property": "voltage",
+        "header": "Voltage(V)"
+    },
+    {
+        "property": "capacity",
+        "header": "Capacity(Ah)"
+    },
+    {
+        "property": "energy",
+        "header": "Energy Charge(Wh)"
+    },
+    {
+        "property": "cycleLife",
+        "header": "Cycle Life(%)"
+    }
+]

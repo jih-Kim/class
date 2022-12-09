@@ -1,0 +1,202 @@
+[
+    {
+        "name": "1",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "2",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "3",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "4",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "5",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "6",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "7",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "8",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "9",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "10",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "11",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "12",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "13",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "14",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "15",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "16",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "17",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "18",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "19",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "20",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    }
+]

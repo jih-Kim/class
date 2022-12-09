@@ -1,0 +1,23 @@
+[
+    {
+        "name": "1",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    },
+    {
+        "name": "1",
+        "status": "Rest",
+        "cycle": "1",
+        "current": "0.1238",
+        "voltage": "15",
+        "capacity": "0.2371",
+        "energy": "0.9254",
+        "cycleLife": "98.7361"
+    }
+
+]

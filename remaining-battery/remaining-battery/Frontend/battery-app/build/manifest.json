@@ -1,0 +1,8 @@
+{
+  "short_name": "Remaining Battery Life",
+  "name": "Remaining Battery Life",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

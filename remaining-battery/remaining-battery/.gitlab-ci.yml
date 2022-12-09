@@ -1,0 +1,23 @@
+image: node:12.18.3
+ 
+stages:
+    - test
+    - deploy
+    
+run-unit-test:
+    stage: test
+    before_script:
+        - cd Frontend/battery-app
+    script:
+        - npm install # Install all dependencies
+        - npm run test -- --coverage . # Test 
+    coverage: /components\s.*?\s+(\d+[.\d+])/
+    
+build:
+    stage: deploy
+    script:
+       - sudo systemctl restart react # Call service to run react app
+       - sudo systemctl status react
+    only:
+        - main
+
